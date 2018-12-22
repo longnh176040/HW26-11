@@ -4,9 +4,9 @@ import game.renderer.SingleImageRenderer;
 import tklibs.SpriteUtils;
 import java.awt.image.BufferedImage;
 
-public class BackGround extends GameObject{
+public class Background extends GameObject{
 
-    public BackGround() {
+    public Background() {
         super();
         BufferedImage image = SpriteUtils.loadImage("assets\\images\\background\\0.png");
         this.renderer = new SingleImageRenderer(image);
